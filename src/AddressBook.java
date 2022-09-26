@@ -17,6 +17,7 @@ public class AddressBook {
 
     public static void main(String[] args) {
         System.out.println("Address Book");
+        System.out.println("New Line");
         BuddyInfo buddy = new BuddyInfo("Nivetha", "4 the parkway", "6134135364");
         AddressBook addressBook1 = new AddressBook();
         addressBook1.addBuddy(buddy);
