@@ -15,6 +15,10 @@ public class AddressBook {
         addressBook.remove(b);
     }
 
+    public void newMethod() {
+        System.out.println("new method");
+    }
+
     public static void main(String[] args) {
         System.out.println("Address Book");
         System.out.println("New Line");
